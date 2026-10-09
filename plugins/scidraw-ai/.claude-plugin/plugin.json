@@ -1,0 +1,13 @@
+{
+  "name": "scidraw-ai",
+  "version": "0.1.0",
+  "description": "Create, edit and convert publication-ready scientific figures and charts with SciDraw AI.",
+  "author": {
+    "name": "SciDraw AI",
+    "url": "https://sci-draw.com"
+  },
+  "homepage": "https://sci-draw.com/mcp",
+  "repository": "https://github.com/TopLocalAI/scidraw-plugins",
+  "license": "MIT",
+  "keywords": ["scientific-illustration", "figures", "charts", "graphical-abstract", "mcp"]
+}

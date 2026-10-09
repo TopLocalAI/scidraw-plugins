@@ -1,0 +1,20 @@
+{
+  "name": "scidraw-marketplace",
+  "interface": {
+    "displayName": "SciDraw AI"
+  },
+  "plugins": [
+    {
+      "name": "scidraw-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scidraw-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

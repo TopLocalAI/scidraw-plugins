@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scidraw-ai": {
+      "type": "http",
+      "url": "https://sci-draw.com/api/mcp"
+    }
+  }
+}

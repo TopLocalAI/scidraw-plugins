@@ -1,0 +1,19 @@
+{
+  "name": "scidraw-plugins",
+  "owner": {
+    "name": "SciDraw AI",
+    "url": "https://sci-draw.com"
+  },
+  "metadata": {
+    "description": "SciDraw AI plugins: scientific illustrations, charts and editable figure exports from your AI assistant."
+  },
+  "plugins": [
+    {
+      "name": "scidraw-ai",
+      "source": "./plugins/scidraw-ai",
+      "description": "Create, edit and convert publication-ready scientific figures and charts with SciDraw AI.",
+      "category": "productivity",
+      "homepage": "https://sci-draw.com/mcp"
+    }
+  ]
+}

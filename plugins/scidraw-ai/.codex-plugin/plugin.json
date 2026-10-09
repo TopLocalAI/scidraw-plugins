@@ -1,0 +1,29 @@
+{
+  "name": "scidraw-ai",
+  "version": "0.1.0",
+  "description": "Create, edit and convert publication-ready scientific figures and charts with SciDraw AI.",
+  "author": {
+    "name": "SciDraw AI",
+    "url": "https://sci-draw.com"
+  },
+  "homepage": "https://sci-draw.com/mcp",
+  "repository": "https://github.com/TopLocalAI/scidraw-plugins",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SciDraw AI",
+    "shortDescription": "Scientific illustrations, charts and editable figure exports.",
+    "longDescription": "Turn a research description, sketch or dataset into a publication-ready figure, refine it in conversation, and export editable SVG or PowerPoint files. Uses your SciDraw AI account and credits.",
+    "developerName": "SciDraw AI",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://sci-draw.com",
+    "defaultPrompt": [
+      "Connect to SciDraw AI, check that its tools are available, and introduce what it can do for my research figures."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "logoDark": "./assets/icon.png"
+  },
+  "mcpServers": "./.mcp.json"
+}
