@@ -16,6 +16,15 @@ Every successful call spends credits, so get the brief right first. If the reque
 
 If the user pasted an abstract, methods or results, turn them into a clear visual brief yourself and confirm it in one or two sentences before generating.
 
+## Planning by figure type
+
+- **Mechanism or pathway** — stimulus on one side, outcome on the other, the cell or tissue in the middle; name each molecule and say what every arrow means (activates, inhibits, secretes, translocates). Keep to one pathway per panel.
+- **Research roadmap (technical route)** — top-to-bottom or left-to-right stages: question → aims → methods → expected results. One box per step, the method or dataset under each box, and the stage names as column or row headers. Grant proposals and thesis proposals usually want this portrait.
+- **Conceptual or research framework** — variables as boxes, hypotheses as labelled arrows (H1, H2…), mediators between, moderators pointing at an arrow. No decoration.
+- **Graphical abstract** — one sentence of story read left to right in three or four steps, wide format, minimal text.
+- **Workflow or protocol** — numbered steps with the instrument or reagent drawn at each step, time or conditions under it.
+- **Single element or icon** (a cell, an organ, a mouse, an antibody) — one object, isolated on a white background, 1:1, for the user to assemble in their own figure.
+
 ## Writing the prompt
 
 Describe the figure like a brief to an illustrator: layout (left to right, panels), each element and its label text, arrows and what they mean, background, palette. Put exact label text in quotes. Avoid asking for long paragraphs of text inside the image.
