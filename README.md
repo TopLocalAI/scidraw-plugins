@@ -1,6 +1,6 @@
 # SciDraw AI plugins
 
-[中文说明](#中文说明)
+[中文说明](#中文说明) · [日本語](#日本語)
 
 Use [SciDraw AI](https://sci-draw.com) — publication-ready scientific illustrations, charts and editable figure exports — from your AI assistant. One plugin works in **Codex** (CLI and ChatGPT desktop app) and **Claude Code**.
 
@@ -115,6 +115,51 @@ codex plugin add scidraw-ai@scidraw-marketplace
 **价格**：注册送免费积分；付费 $10/月起（年付），月付 $20；支持支付宝。
 
 **相关链接**：[SciDraw AI 中文页](https://sci-draw.com/zh) · [中文教程与示例](https://sci-draw.cn) · [MCP 指南](https://sci-draw.com/mcp) · [文档](https://sci-draw.com/docs)
+
+## 日本語
+
+本リポジトリは SciDraw AI の公式プラグインパッケージ（リモート MCP サーバーと 4 つのスキルを同梱）で、Codex および Claude Code からの呼び出しに対応しています。SciDraw AI の公式サイトは [sci-draw.com](https://sci-draw.com/ja) です。
+
+**できること**
+
+- テキストの説明から科学イラストを生成できます
+- メカニズム図、パスウェイ図、研究ロードマップを作成できます
+- グラフィカルアブストラクト / TOC やニューラルネットワーク構造図を生成できます
+- SVG / PPTX 形式で書き出して再編集できます
+
+**使い方**
+
+アシスタントに自動インストールさせる場合——Codex に貼り付けます：
+
+```
+/goal Read https://sci-draw.com/mcp/install.md to install SciDraw AI for Codex and run its first-time setup.
+```
+
+または Claude に送信します：
+
+```
+Connect the SciDraw AI MCP server at https://sci-draw.com/api/mcp
+```
+
+Codex に手動でインストールする場合：
+
+```sh
+codex plugin marketplace add TopLocalAI/scidraw-plugins --ref main
+codex plugin add scidraw-ai@scidraw-marketplace
+```
+
+Claude Code に手動でインストールする場合：
+
+```
+/plugin marketplace add TopLocalAI/scidraw-plugins
+/plugin install scidraw-ai@scidraw-plugins
+```
+
+Claude Code で `/mcp` を実行するか（または Codex の案内に従ってサインインし）、ブラウザで SciDraw AI アカウントを認可するだけで利用でき、API Key は不要です。その他の MCP クライアントでは `https://sci-draw.com/api/mcp` をカスタムコネクタとして追加できます。
+
+**料金**：登録時に無料クレジットが付与されます。有料プランは年払いで月 $10 から（月払いは $20）、Alipay に対応しています。
+
+**関連リンク**：[SciDraw AI 日本語ページ](https://sci-draw.com/ja) · [中国語チュートリアル・作例](https://sci-draw.cn) · [MCP ガイド](https://sci-draw.com/ja/mcp) · [ドキュメント](https://sci-draw.com/docs)
 
 ## License
 
